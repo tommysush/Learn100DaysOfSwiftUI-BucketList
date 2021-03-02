@@ -13,6 +13,11 @@
 		744A42C025E5DED5006072F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744A42BF25E5DED5006072F4 /* Assets.xcassets */; };
 		744A42C325E5DED5006072F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744A42C225E5DED5006072F4 /* Preview Assets.xcassets */; };
 		744A42C625E5DED5006072F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744A42C425E5DED5006072F4 /* LaunchScreen.storyboard */; };
+		7484186A25EA9BE8004B6240 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484186925EA9BE8004B6240 /* MapView.swift */; };
+		7484187225ECDCFC004B6240 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484187125ECDCFC004B6240 /* MKPointAnnotation-ObservableObject.swift */; };
+		7484187525ECDEC8004B6240 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484187425ECDEC8004B6240 /* EditView.swift */; };
+		7484187925ED4045004B6240 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484187825ED4045004B6240 /* Result.swift */; };
+		7484187C25EDC2B4004B6240 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484187B25EDC2B4004B6240 /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		744A42C225E5DED5006072F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		744A42C525E5DED5006072F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744A42C725E5DED5006072F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7484186925EA9BE8004B6240 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7484187125ECDCFC004B6240 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		7484187425ECDEC8004B6240 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		7484187825ED4045004B6240 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7484187B25EDC2B4004B6240 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,12 @@
 			children = (
 				744A42B925E5DED5006072F4 /* AppDelegate.swift */,
 				744A42BB25E5DED5006072F4 /* SceneDelegate.swift */,
+				7484187825ED4045004B6240 /* Result.swift */,
+				7484187125ECDCFC004B6240 /* MKPointAnnotation-ObservableObject.swift */,
+				7484187B25EDC2B4004B6240 /* MKPointAnnotation-Codable.swift */,
 				744A42BD25E5DED5006072F4 /* ContentView.swift */,
+				7484187425ECDEC8004B6240 /* EditView.swift */,
+				7484186925EA9BE8004B6240 /* MapView.swift */,
 				744A42BF25E5DED5006072F4 /* Assets.xcassets */,
 				744A42C425E5DED5006072F4 /* LaunchScreen.storyboard */,
 				744A42C725E5DED5006072F4 /* Info.plist */,
@@ -146,7 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				744A42BA25E5DED5006072F4 /* AppDelegate.swift in Sources */,
+				7484186A25EA9BE8004B6240 /* MapView.swift in Sources */,
+				7484187525ECDEC8004B6240 /* EditView.swift in Sources */,
 				744A42BC25E5DED5006072F4 /* SceneDelegate.swift in Sources */,
+				7484187925ED4045004B6240 /* Result.swift in Sources */,
+				7484187225ECDCFC004B6240 /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				7484187C25EDC2B4004B6240 /* MKPointAnnotation-Codable.swift in Sources */,
 				744A42BE25E5DED5006072F4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
